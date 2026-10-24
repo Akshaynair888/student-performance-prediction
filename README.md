@@ -74,7 +74,26 @@ Both Logistic Regression and KNN were trained using a train/test split and evalu
 
 The current dataset contains only 20 records, so the test set is very small. The resulting metrics can change significantly with a different split and should not be interpreted as reliable real-world performance.
 
-Add the final measured results for both models after verifying the complete terminal output.
+Results
+
+The following results were obtained using the current train/test split:
+
+Metric| Logistic Regression| KNN
+Accuracy| 0.833| 0.833
+Precision| 0.750| 0.750
+Recall| 1.000| 1.000
+F1-score| 0.857| 0.857
+
+Both models produced the same confusion matrix:
+
+[[2, 1],
+ [0, 3]]
+
+The label order is Fail, Pass. Of the six test records, five were classified correctly. One student whose actual result was Fail was incorrectly predicted as Pass.
+
+Both models achieved identical metrics in this run. The results do not establish that either model is superior.
+
+Important limitation: The test set contains only six records, drawn from a 20-record demonstration dataset. These metrics are highly sensitive to the train/test split and should not be interpreted as reliable real-world performance.
 
 Limitations
 
