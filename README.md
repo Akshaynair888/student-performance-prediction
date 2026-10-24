@@ -33,7 +33,11 @@ The dataset contains 20 records and six columns:
 - "sleep_hours": Daily sleep hours
 - "final_result": Pass or Fail
 
-The dataset is small and should be treated as a demonstration dataset, not as representative of all students. Its source and whether the records are synthetic must be stated accurately.
+Dataset Source
+
+The 20-record demonstration dataset was provided by an AI assistant during project development. It is intended for educational and experimental purposes only and does not represent real student records.
+
+Limitations: The dataset is very small, so evaluation results may vary significantly across different train/test splits. The model's predictions should not be used as the sole basis for real educational decisions.
 
 Project Structure
 
