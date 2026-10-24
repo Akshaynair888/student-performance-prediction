@@ -78,11 +78,12 @@ Results
 
 The following results were obtained using the current train/test split:
 
-Metric| Logistic Regression| KNN
-Accuracy| 0.833| 0.833
-Precision| 0.750| 0.750
-Recall| 1.000| 1.000
-F1-score| 0.857| 0.857
+| Metric | Logistic Regression | KNN |
+| --- | ---: | ---: |
+| Accuracy | 0.833 | 0.833 |
+| Precision | 0.750 | 0.750 |
+| Recall | 1.000 | 1.000 |
+| F1-score | 0.857 | 0.857 |
 
 Both models produced the same confusion matrix:
 
