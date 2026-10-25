@@ -21,7 +21,7 @@ The project uses a dataset containing 20 records and six columns:
 
 The target variable is "final_result", with the classes Pass and Fail. The dataset contains 11 Pass records and 9 Fail records.
 
-Dataset source: [Replace this line with the actual source of your dataset.] If the dataset was generated synthetically, state that explicitly and describe how the labels were generated.
+Dataset source: A small, synthetic demonstration dataset created with AI assistance for this assessment. It contains 20 records and is intended to demonstrate data exploration, model training, evaluation, and prediction. It is not a verified real-world student dataset, and its results should not be generalized to actual students.
 
 3. Data Exploration and Preprocessing
 
